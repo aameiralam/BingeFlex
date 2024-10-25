@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/movieStreamDb
+    username: root
+    password: Chittagong100!
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    #    database-platform: org:hibernate.dialect.MySql8Dialect
+    show-sql: true
+    hibernate:
+      ddl-auto: create-drop
+jwt:
+  secret: 2k2pNeJkFPdnTJcBcWd+MUCt/9IH3LcvD4sZlhLdvb4=
+  expiration: 900000
+
+
